@@ -1,3 +1,9 @@
+body{ /*sets the default font family and size for the body*/
+    margin: 0;
+    padding: 0;
+}
+
+
 /*nav styles*/
 .open-sans-normal{
     font-family: "Open Sans", serif;
@@ -53,9 +59,12 @@ nav ul li a{
     text-decoration: none;
     font-size: 20px;
     border: none;
-
 }
 
+/*adding button hover effect*/
+.btn-primary:hover{
+    background-color: #FF8C3B;
+}
 /*banner styles*/
 
 .banner-greetings{
@@ -89,4 +98,5 @@ nav ul li a{
     background-image: url("../images/developer.png"), url("../images/header_bg.png");
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    background-size:contain;
 }
